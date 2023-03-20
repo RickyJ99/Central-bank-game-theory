@@ -44,8 +44,8 @@ We solve the maximization problem of the agent i and j\par
 FOC:
 \[ -2\beta_{i1}(x_i-T)-2\beta_{i2}(x_i-N_i)-2(1 - \alpha) [(1 - \alpha) x_i - \alpha x_j]=0 \]
 \[ \beta_{i1}x_i-\beta_{i1}T+\beta_{i2}x_i-\beta_{i2}N_i+ x_i (1 - \alpha)^2 - x_j (1 - \alpha)\alpha = 0 \]
-\[ x_i = \frac{\beta_{i1} t + \beta_{i2} + x_j (1 - \alpha)\alpha}{\beta_{i1} + \beta_{i2} + (1 - \alpha)^2}\]
-\[ x_j = \frac{\beta_{j1}t+\beta_{j2}N_j+ x_i (1 - \alpha)\alpha}{\beta_{j1}+\beta_{j2}+\alpha^2}\]
+\[ x_i = \frac{\beta_{i1} T + \beta_{i2}N_i + x_j (1 - \alpha)\alpha}{\beta_{i1} + \beta_{i2} + (1 - \alpha)^2}\]
+\[ x_j = \frac{\beta_{j1} T+\beta_{j2}N_j+ x_i (1 - \alpha)\alpha}{\beta_{j1}+\beta_{j2}+\alpha^2}\]
 Solving the system of equations we derived the Nash equilibrium:
 \[x_i^N = \frac{ q_i w_j + (1 - \alpha)\cdot\alpha q_j} {w_i \cdot w_j - 1}\]
 \[x_j^N = \frac{ q_j w_i + (1 - \alpha)\cdot\alpha q_j} {w_i \cdot w_j - 1}\]
@@ -83,9 +83,7 @@ rate  about 20 b.p.
     \includegraphics[scale=0.8]{plot.png}
     \caption{Nash equilibrium and best reply function\label{figure1}}
 \end{figure}
-\subsection{Self confirming equilibrium}
-The self confirming equilibrium is the Nash equilibrium.
-\subsection{Rationalisability}
+
 \begin{table}[htbp]
     \centering
     \caption{Rationalizability Learning Steps}
@@ -93,9 +91,15 @@ The self confirming equilibrium is the Nash equilibrium.
     \begin{tabular}{|c|c|c|}
     \hline
     \textbf{Step} & \textbf{Doves} & \textbf{Hawks} \\ \hline
-    1             & [-0.5, 0.5]      & [-0.5, 0.5]      \\ \hline
-    2             & [0.35, 0.35]     & [0.1593, 0.1593]     \\ \hline
-    3             & [0.35, 0.35]     & [0.1593, 0.1593]     \\ \hline
+    0             & [-0.5, 0.5]      & [-0.5, 0.5]      \\ 
+    1             & [0.10382514, 0.16939891]     & [0.26190476, 0.33333333]     \\ 
+    2             & [0.1537861, 0.15846995]     & [0.30503513, 0.30971897]     \\ 
+    3             & [0.15661433, 0.15692146]     & [0.30860377, 0.30893833]     \\ 
+    4             & [0.15684833, 0.15687027]     & [0.30880579, 0.30882772]     \\ 
+    5             & [0.15686158, 0.15686302]     & [0.3088225, 0.30882407]     \\ 
+    6             & [0.15686268, 0.15686278]     & [0.30882345, 0.30882355]\\
+    7             & [0.15686274, 0.15686275]     & [0.30882352, 0.30882353]\\
+    8             & [0.15686274, 0.15686275]     & [0.30882352, 0.30882353]     \\ \hline
     \end{tabular}
     \end{table}
 \end{document}
