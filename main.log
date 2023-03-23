@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.5)  20 MAR 2023 15:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.5)  23 MAR 2023 19:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -225,42 +225,41 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 9.
-
-Overfull \hbox (0.31175pt too wide) in paragraph at lines 10--14
-\OT1/cmr/m/n/10.95 decision-making body of the Euro-system the gov-ern-ing coun-cil. More-
- []
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 27.
+(Font)              <12> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 27.
+(Font)              <8> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 27.
-[1
+(Font)              <6> on input line 25.
+ [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<plot.png, id=36, 462.528pt x 346.896pt>
+<plot.png, id=40, 462.528pt x 346.896pt>
 File: plot.png Graphic file (type png)
 <use plot.png>
-Package pdftex.def Info: plot.png  used on input line 83.
+Package pdftex.def Info: plot.png  used on input line 94.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
- [3] [4 <./plot.png>] (./main.aux)
+ [3]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4] [5 <./plot.png>] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 26EB12FAA6990D2BB64F368C5C4EBC1E;481.
+(rerunfilecheck)             Checksum: 7B7326E77B793952D41DBC366CB4F5BF;609.
  ) 
 Here is how much of TeX's memory you used:
- 8344 strings out of 476024
- 133839 string characters out of 5790019
- 1859388 words of memory out of 5000000
- 28702 multiletter control sequences out of 15000+600000
+ 8347 strings out of 476024
+ 133865 string characters out of 5790019
+ 1861388 words of memory out of 5000000
+ 28703 multiletter control sequences out of 15000+600000
  518400 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,76p,372b,497s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,76p,603b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (4 pages, 140957 bytes).
+Output written on main.pdf (5 pages, 146950 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 30 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
